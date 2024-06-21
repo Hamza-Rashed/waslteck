@@ -1,0 +1,343 @@
+10/19/2023	23:10:63	4732476e-0a22-465b-9015-e6f75ee99027	ReferenceError	allowedList is not defined	OPTIONS	/	https://www.google.com	
+10/19/2023	23:10:64	0f129c5e-d14b-47cb-8118-146418c67e94	ReferenceError	allowedList is not defined	GET	/	https://www.google.com	
+10/19/2023	23:10:13	adf89353-c7cd-4849-a292-3c0e862ba54f	ReferenceError	allowedList is not defined	OPTIONS	/	https://www.google.com	
+10/19/2023	23:10:14	a4210bd8-f2aa-49bf-907d-94e3c9a23a94	ReferenceError	allowedList is not defined	GET	/	https://www.google.com	
+10/19/2023	23:10:73	e54008e7-42e4-4a27-b700-f74b24f63d24	TypeError	allowedList.indexOf is not a function	OPTIONS	/	https://www.google.com	
+10/19/2023	23:10:74	c0d5c0d2-e1ad-4e08-aaf2-3e68d72d26e2	TypeError	allowedList.indexOf is not a function	GET	/	https://www.google.com	
+10/19/2023	23:10:77	90c5e5ad-e5d8-4aea-8a3e-bd580fd478f7	Error	No Allow By Cors	OPTIONS	/	https://www.google.com	
+10/19/2023	23:10:78	b3bf12f7-8bc4-446a-8b0d-7aef35b3fd4b	Error	No Allow By Cors	GET	/	https://www.google.com	
+10/24/2023	01:10:13	775685b9-c086-4b5f-a75f-78d27f18ab2c	SyntaxError	Expected double-quoted property name in JSON at position 83	POST	/users	undefined	
+10/24/2023	15:10:78	9ed252b8-10d3-4a6a-a77e-0fef5e7383a6	CastError	Cast to ObjectId failed for value "6537b485062f28f39110bafa1" (type string) at path "_id" for model "User"	POST	/notes	undefined	
+10/24/2023	15:10:43	99441ad0-9dff-497a-a1f2-f509ac502f0c	CastError	Cast to ObjectId failed for value "6537b485062f28f39110bafs" (type string) at path "_id" for model "User"	POST	/notes	undefined	
+10/25/2023	22:10:29	e1bf2443-8203-46aa-b572-995e0f8d5805	TypeError	Note.save is not a function	PATCH	/notes	undefined	
+10/25/2023	22:10:18	5a05a396-937f-47a7-b05b-0fd2fc52106f	CastError	Cast to ObjectId failed for value "6537c1ddce6eb73cf83f09ex" (type string) at path "_id" for model "Note"	PATCH	/notes	undefined	
+12/05/2023	21:12:07	6c074c88-1695-46db-818d-ade7887f8b17	Error	Callback function is not available with promise clients.	GET	/users	undefined	
+12/05/2023	22:12:19	2252fa74-6830-4000-9209-cff2d1460c4a	Error	Unknown column '$1' in 'where clause'	GET	/users/3	undefined	
+12/06/2023	00:12:83	e59210aa-a5b5-4f22-8c75-3819b541214c	Error	Unknown column '$' in 'where clause'	GET	/users/2	undefined	
+12/07/2023	22:12:64	347e7a78-0699-47c4-9ad4-ebd53e037ecc	Error	Field 'active' doesn't have a default value	POST	/users	undefined	
+12/07/2023	23:12:53	75909b3f-6a06-4ac1-b84b-da69bf12b156	TypeError	Cannot read properties of undefined (reading 'username')	PATCH	/users	undefined	
+12/07/2023	23:12:80	c7f6582f-0810-4b5b-9cec-db9843394a3e	Error	data and hash must be strings	PATCH	/users	undefined	
+12/08/2023	23:12:98	368059c5-fc6f-4032-8139-1bc333046d83	ReferenceError	userDeleted is not defined	DELETE	/users	undefined	
+03/29/2024	11:03:63	914bab7c-3d4e-498d-b84c-3538b66ae923	Error	Unknown column 'roles' in 'field list'	POST	/users	undefined	
+03/29/2024	11:03:62	f04dfb99-3bad-4757-ba7d-7bef2be802a3	Error	Incorrect integer value: '[1]' for column 'roles' at row 1	POST	/users	undefined	
+03/29/2024	11:03:21	1e93aaf7-37a1-4df0-b2b4-cad22b66f009	Error	Incorrect integer value: '[1]' for column 'roles' at row 1	POST	/users	undefined	
+03/29/2024	11:03:64	9c20c737-6a13-4c71-b452-255a428389a5	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+03/29/2024	11:03:45	3fbe0d3d-1be9-4845-982b-cc4adf976f5e	TypeError	Cannot read properties of undefined (reading 'username')	PATCH	/users	undefined	
+03/30/2024	00:03:79	f5006adb-31cc-47df-931c-84ee1f1b6aa4	Error	Table 'igt.login' doesn't exist	GET	/users	undefined	
+03/30/2024	17:03:17	0df61575-84fd-40a4-8267-1463b670ec40	Error	Column count doesn't match value count at row 1	POST	/users	undefined	
+03/30/2024	17:03:63	4fae4fde-bc1a-4c76-970c-ec04124d6a0e	Error	Field 'id' doesn't have a default value	POST	/users	undefined	
+03/30/2024	17:03:51	6796ebda-2509-4c0c-b7e1-cdf2b9645fa7	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	GET	/users/1	undefined	
+03/30/2024	17:03:40	a44aed77-09b2-4dbd-8f15-676c215f3f4d	ReferenceError	id is not defined	GET	/users/name	undefined	
+03/30/2024	17:03:56	4d4ef210-f38a-475d-8ffd-bd50ad43d0d1	ReferenceError	id is not defined	GET	/users/name	undefined	
+03/30/2024	18:03:22	a68f2a83-07bd-44aa-b23b-85328a590fc3	TypeError	Cannot set properties of undefined (setting 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:46	78bc91eb-37ac-44c1-9240-f5ebfc7fbf51	TypeError	Cannot set properties of undefined (setting 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:34	8e233e24-bdba-41c4-a953-aa8f36d3f868	TypeError	Cannot read properties of undefined (reading 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:37	a9400e2b-f205-4392-9c58-c829faf78045	TypeError	Cannot set properties of undefined (setting 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:47	f7c07407-8fc3-467b-bdc1-719693c10d5e	TypeError	Cannot set properties of undefined (setting 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:17	9561c377-b8af-42fa-9695-db7b878e3add	TypeError	Cannot set properties of undefined (setting 'username')	PATCH	/users	undefined	
+03/30/2024	18:03:26	95f9cf72-64c9-4fbd-91ac-946459b9f1d3	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+03/30/2024	18:03:00	c0b56d37-554c-4efd-b235-e00490fe3d63	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+04/15/2024	23:04:10	30f3d26f-dcfb-48f3-a094-fd90adcde484	Error	Field 'id' doesn't have a default value	POST	/info	undefined	
+04/16/2024	10:04:65	c3c836da-8dba-4037-bdb8-f19ce231914c	Error	Table 'igt.login' doesn't exist	POST	/auth	undefined	
+04/16/2024	10:04:00	93e5d558-eab8-4238-8abe-d17584424c03	Error	Malformed communication packet.	POST	/users	undefined	
+04/16/2024	10:04:23	33e6c395-89c5-41a7-bf94-4eea95fc3dc1	Error	data and hash arguments required	POST	/auth	undefined	
+04/16/2024	10:04:41	513a4928-7b48-4af1-b343-e84d74d9a745	Error	data and hash arguments required	POST	/auth	undefined	
+04/16/2024	10:04:37	a47f1a4d-fbe5-4b00-a18e-131a92386dde	Error	data and hash arguments required	POST	/auth	undefined	
+04/16/2024	10:04:48	20e42443-b38e-4b3d-a47e-0f95cc2447dd	Error	data and hash arguments required	POST	/auth	undefined	
+04/16/2024	11:04:80	c6833802-d714-4d7f-a2a2-38a23535933d	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/charcer	undefined	
+04/16/2024	12:04:42	d5aabc77-2129-40e0-8fc8-f31888470772	Error	Unknown column 'password' in 'field list'	POST	/company	undefined	
+04/16/2024	12:04:33	1188a42e-debd-400f-bcb1-7b8419a67137	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	12:04:31	b894ec9c-5290-45ca-911e-7438a348fda0	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	12:04:23	a56abcb0-5bee-40ce-a540-8d6a7ebf90dd	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	12:04:25	3272e6de-4bc5-4b13-86c7-f46facda13a1	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:37	ebdbb287-2b52-4142-8910-1f3e6f1bbb71	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:13	f99497aa-e5cd-483a-8812-28dbe4348196	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:59	9ae7a73c-5dca-45ae-b67c-5ff61fcb62f0	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:33	c2df4815-0984-4dcd-825d-9905ee2ccf69	TypeError	Cannot read properties of undefined (reading 'length')	PATCH	/company	undefined	
+04/16/2024	15:04:21	d04fcb2d-85c6-4b0e-877a-76492d704755	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:61	e3f429df-c3f8-40d1-b5cd-a3a585bd8dd2	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:66	b2179bbe-d7b4-4c0f-a3db-9258556bce2d	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:84	9e842776-da06-4458-b67c-2d40cbed4231	Error	Incorrect datetime value: '2024-04-16T09:17:14.000Z' for column 'updatedAt' at row 1	PATCH	/company	undefined	
+04/16/2024	15:04:65	87046b73-f4b0-4d29-974c-b7230cbba527	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	15:04:67	9f39b234-f791-4e86-96e5-0163892fcb73	SyntaxError	Unexpected end of JSON input	DELETE	/company	undefined	
+04/16/2024	15:04:06	a0d747aa-d051-4554-8f35-9d352e629bd7	ReferenceError	companyname is not defined	GET	/company/3	undefined	
+04/16/2024	15:04:57	f122e769-bcc5-41e4-9076-d7ffa7d2dfb0	ReferenceError	username is not defined	GET	/users/name	undefined	
+04/16/2024	15:04:63	7db33ec4-ec3c-4946-b799-1559a267ecc2	ReferenceError	username is not defined	GET	/users/name	undefined	
+04/16/2024	15:04:96	814099bc-7d28-470e-a359-6d177f8642dd	ReferenceError	username is not defined	GET	/users/name	undefined	
+04/16/2024	15:04:61	557957d8-7587-4094-878d-dc87d918b02d	ReferenceError	username is not defined	GET	/users/name	undefined	
+04/16/2024	15:04:95	0baad6b2-bd3c-4220-8651-3b55cf99cef3	ReferenceError	company_infoname is not defined	POST	/company_info	undefined	
+04/16/2024	16:04:62	d4bb18a3-286f-4b54-a6a2-94b99d22f56c	Error	Incorrect integer value: 'test' for column 'user_id' at row 1	POST	/contact_details	undefined	
+04/16/2024	16:04:21	64938bb0-dd8a-43fc-8b4e-0e08404aeba1	Error	Incorrect integer value: 'Test' for column 'phone_number' at row 1	POST	/contact_details	undefined	
+04/16/2024	16:04:74	0c5159d1-0751-4031-80f9-ff1b4ce50d33	SyntaxError	Unexpected number in JSON at position 112	POST	/contact_details	undefined	
+04/16/2024	16:04:92	1c1cf02e-04b4-45ab-83bc-a6681faf6eda	Error	Incorrect integer value: 'Test' for column 'phone_number' at row 1	POST	/contact_details	undefined	
+04/16/2024	16:04:84	e4fe0710-bcfe-4e3b-b6ea-ff8ae4399d57	Error	Out of range value for column 'phone_number' at row 1	POST	/contact_details	undefined	
+04/16/2024	16:04:10	4bd461e0-f28f-4e04-ac77-5fb43ddfd779	ReferenceError	username is not defined	POST	/contact_details	undefined	
+04/16/2024	17:04:81	75fe5309-f2d3-478b-8bc0-d00bad5664f5	ReferenceError	username is not defined	POST	/contact_details	undefined	
+04/16/2024	17:04:17	d59650f5-e855-44b8-8253-d1fb2763a440	ReferenceError	username is not defined	POST	/contact_details	undefined	
+04/16/2024	17:04:12	7fbcc72d-f4bc-442e-b2a2-1f22d6e930ae	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', external_comments = ?, internal_comments = ?, active_status = ?, updatedAt = ?' at line 1	PATCH	/contact_details	undefined	
+04/16/2024	17:04:88	5a5595a0-a5f3-444c-992d-4c3102e903b8	ReferenceError	username is not defined	PATCH	/contact_details	undefined	
+04/16/2024	17:04:62	c01df6f3-af3b-4f08-bbfd-5baaebc2f965	ReferenceError	username is not defined	GET	/contact_details/2	undefined	
+04/16/2024	17:04:09	e2c9434f-bbb7-47c8-bf65-f5cdb1a4235e	Error	Unknown column 'user' in 'where clause'	GET	/contact_details/user	undefined	
+04/16/2024	17:04:22	f02e1fa5-2f5e-41c5-a86a-1758013b335b	ReferenceError	username is not defined	GET	/contact_details/user	undefined	
+04/16/2024	19:04:52	9c14333a-937a-413c-b47b-33767e5dd37c	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	19:04:17	31b13bc0-aaf7-4416-a9e7-804e3d4d693d	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/company	undefined	
+04/16/2024	20:04:96	0aaa8a03-4627-4022-bb71-41fce85fa6f6	ReferenceError	freightname is not defined	POST	/freight	undefined	
+04/16/2024	20:04:51	b2402d16-dff0-4d12-b028-5d9f188fde0d	TypeError	Cannot read properties of undefined (reading 'id')	POST	/freight	undefined	
+04/16/2024	20:04:23	76f9a65d-642e-4990-a003-05ea7aeca2e0	Error	Incorrect datetime value: '2023-12-31T21:00:00.000Z' for column 'payment_due' at row 1	PATCH	/freight	undefined	
+04/17/2024	00:04:55	4944bf82-d31f-49d6-a213-978ced3c1a58	ReferenceError	tendername is not defined	POST	/tender	undefined	
+04/17/2024	00:04:13	56191373-1d0a-40b3-818c-a893913555be	Error	Incorrect datetime value: '2024-04-16T21:33:32.000Z' for column 'updatedAt' at row 1	PATCH	/tender	undefined	
+04/17/2024	18:04:03	8c6acf0b-f00b-489a-9c1c-36e23d7128d5	Error	Incorrect datetime value: '2024-04-17T15:36:24.000Z' for column 'updatedAt' at row 1	PATCH	/tender_routes	undefined	
+04/17/2024	20:04:62	59737f05-1fda-48df-b799-fbca4199b070	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+04/17/2024	20:04:94	79c854ad-f330-4c00-a7e7-6eb9bd37d0c1	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+04/17/2024	20:04:62	97636243-0454-4cbc-8492-3f73fcd5e8a9	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+04/17/2024	20:04:91	65d67857-6523-427e-8140-1e0059d00b0d	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/users	undefined	
+04/17/2024	20:04:06	31ecee5f-125e-4ff6-a889-ed20c57aa7a9	TypeError	Cannot read properties of undefined (reading 'firstName')	POST	/users_info	undefined	
+04/17/2024	20:04:61	0aed9b86-5f81-4776-bd9e-f0be708c0c37	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'updatedAt = ? where id = ?' at line 1	PATCH	/users_info	undefined	
+04/17/2024	21:04:95	4a325702-8bed-4ef3-9b88-a030b110ad19	Error	Unknown column 'role' in 'where clause'	GET	/user_tools/company	undefined	
+04/17/2024	21:04:76	38993a83-e604-4e78-856f-d21c4965d26d	Error	Unknown column 'role' in 'where clause'	GET	/user_tools/company	undefined	
+04/17/2024	21:04:82	422d43c8-1fa4-4960-ba75-2825283e75d5	ReferenceError	igt_track is not defined	POST	/vehicle	undefined	
+04/17/2024	21:04:39	b362d827-426a-4936-8bf7-eda7aaa0944b	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/vehicle	undefined	
+04/17/2024	21:04:15	c77194f5-94ae-4bec-b64a-7becb8507764	ReferenceError	vehiclename is not defined	PATCH	/vehicle	undefined	
+04/17/2024	21:04:65	e00a8925-0c09-4718-8877-d7a549901ea0	Error	Unknown column 'unites' in 'field list'	POST	/warehousing	undefined	
+04/17/2024	21:04:76	780f02c5-98ea-4c79-af2f-429195f437c3	Error	Incorrect integer value: 'h' for column 'pupmonth' at row 1	POST	/warehousing	undefined	
+04/17/2024	21:04:41	68b1c73f-d170-4590-ba56-881a4536e166	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_person = ?,users_info = ?, external_comments = ?, internal_comments = ?,' at line 1	PATCH	/warehousing	undefined	
+04/17/2024	21:04:84	d2b7de4a-2c67-4e9d-a1ac-f0ef5cc5b4bb	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_person = ?,users_info = ?, external_comments = ?, internal_comments = ?,' at line 1	PATCH	/warehousing	undefined	
+04/17/2024	21:04:43	8df9b197-8e21-4f69-bb46-edb6bb23deb5	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'contact_person = ?,users_info = ?, external_comments = ?, internal_comments = ?,' at line 1	PATCH	/warehousing	undefined	
+04/17/2024	21:04:58	fc7265df-0a64-4201-949b-874ec3ae44f3	Error	Unknown column 'contact_person' in 'field list'	PATCH	/warehousing	undefined	
+04/17/2024	21:04:69	18970ade-bbcc-4b13-acea-aa5c5853a21b	ReferenceError	warehousingname is not defined	GET	/warehousing/1	undefined	
+04/17/2024	21:04:98	5ec36c1a-80bf-4e84-88b4-0f0c3a3eda7d	ReferenceError	id is not defined	GET	/fav_black/user	undefined	
+04/17/2024	21:04:52	503d7e94-46de-4459-95e9-edcedb025b66	ReferenceError	id is not defined	GET	/fav_black/user	undefined	
+04/18/2024	19:04:03	0a927468-0fad-4ee2-8b0a-8c442764f43d	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/documents	undefined	
+04/18/2024	21:04:24	e1c46a7c-0d9b-4f15-bcb1-4a747296d0e9	TypeError	Cannot convert undefined or null to object	POST	/documents	http://localhost:3000	
+04/18/2024	21:04:32	028ec291-110d-4ee0-83a8-f98d496610cd	ReferenceError	path is not defined	POST	/documents	http://localhost:3000	
+04/18/2024	21:04:13	930cdd98-3380-498a-a5f4-4adc394e727d	ReferenceError	path is not defined	POST	/documents	http://localhost:3000	
+04/18/2024	21:04:35	e1ff2e56-4623-4eed-99d4-78db01164524	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/documents	http://localhost:3000	
+04/18/2024	21:04:18	8b35c1d6-7062-4a14-a04e-26d7e8f360f2	ReferenceError	company_id is not defined	POST	/documents	http://localhost:3000	
+04/19/2024	13:04:05	24fa1afd-dc61-41c6-a809-35fba2a66fbe	TypeError	Cannot read properties of undefined (reading 'password')	POST	/auth	undefined	
+04/19/2024	13:04:77	0b70a2da-59e4-4500-bf6f-754dcb16767f	TypeError	Cannot read properties of undefined (reading 'password')	POST	/auth	undefined	
+04/22/2024	01:04:96	89e67bff-7219-44fe-92fa-1c51e4f2a46b	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/index.html'	GET	/	undefined	
+04/22/2024	11:04:05	66f8cb2e-8eb1-418d-a32b-355e5647ea46	TypeError	Cannot read properties of undefined (reading 'password')	POST	/auth	undefined	
+04/22/2024	11:04:80	a843f2ef-ae58-4028-9e7c-346d0299eab1	TypeError	Cannot read properties of undefined (reading 'password')	POST	/auth	undefined	
+04/22/2024	11:04:56	fd31af0e-9aa4-4812-9eb9-46dfc3976a35	RangeError	Maximum call stack size exceeded	GET	/users	undefined	
+04/22/2024	11:04:89	acc08350-9d2d-4d81-917d-e5175e3be418	RangeError	Maximum call stack size exceeded	GET	/users	undefined	
+04/22/2024	11:04:63	dd0add0f-f182-4df1-9dce-2fdf46223678	RangeError	Maximum call stack size exceeded	GET	/users/role	undefined	
+04/23/2024	03:04:19	f27e4327-71d7-43e1-8b24-e0334587648a	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/23/2024	12:04:71	c6fdcd65-2f1c-4140-a6bb-549d9eca2553	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/23/2024	12:04:77	e4c88560-8151-464f-a03b-8458997aa860	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/auth	http://localhost:8080	
+04/23/2024	12:04:43	a9d97e89-25c7-4c12-ae9c-a58d701a7fdf	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/auth	http://localhost:8080	
+04/23/2024	12:04:68	82ca48ad-13fb-4547-9a03-a04f27522256	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/23/2024	16:04:22	82b7d0ba-076c-4444-b772-08c2ef88fcb5	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	//storage_equipment	undefined	
+04/23/2024	21:04:09	7a3ab371-3ecb-41b8-9792-e0a0c045b716	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	21:04:77	67697663-6715-4d24-b999-c9d4aa22c9ac	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:49	2d6b033f-87bf-49e8-b26d-b94949b5f4b5	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:22	bb50bf23-3331-460c-a92e-22bb7b01d1ef	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:25	b8f45824-0489-4bb9-82b7-698d6be1480e	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:96	008b94ec-d50b-43a0-a4d9-f85f5c238886	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:90	504c2af9-d2df-4cc2-bdb5-d805f277bf21	SyntaxError	Expected double-quoted property name in JSON at position 177	POST	/freight_location	undefined	
+04/23/2024	22:04:66	b78de57f-91d3-4fc4-8d1f-2682f1d21b18	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	undefined	
+04/23/2024	22:04:79	1a2f7dd4-071d-4d40-accf-ea6fa87983c5	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:04	d738a959-e62b-4b04-b43b-7bf68b957cfc	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:52	5164e798-9fc5-4016-a341-96a3b612900e	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:26	f75c56db-e07a-4baf-b63d-b1510638a108	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:26	5d566a84-5957-417d-8b4d-581ba4fce312	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:26	8a3bc79c-56a6-4783-8a4a-7a6ea5861c73	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/23/2024	22:04:20	f5789d51-7ec1-417d-b779-6e27e7b4f8b4	SyntaxError	Expected double-quoted property name in JSON at position 152	POST	/freight_location	undefined	
+04/23/2024	22:04:58	33eb2cfb-3288-4e63-a25c-1117589d7683	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	undefined	
+04/23/2024	22:04:51	2eff3d37-3d8a-4343-8782-05d2fd6ba669	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/freight_id	undefined	
+04/23/2024	22:04:56	b1497409-0696-49e8-b411-6feeae87471a	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/freight_id	undefined	
+04/23/2024	23:04:44	222bbdf9-52bd-4604-afb2-aa069b08efbf	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/swap_body	http://localhost:8080	
+04/23/2024	23:04:95	6bcce4b1-b866-4eda-bcf6-319d831126a7	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/trailer_info	http://localhost:8080	
+04/23/2024	23:04:28	71a0c76c-e594-404c-bd2a-ebd1d476b70f	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/load_securing	http://localhost:8080	
+04/23/2024	23:04:41	7379b63d-e3d1-4ab5-805e-33e3d5895aab	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/23/2024	23:04:01	8a506579-7ea9-4be4-a249-40011793cdea	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/23/2024	23:04:99	3142f4e0-db49-4aa5-9a03-7ef678c05082	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_vehicle	http://localhost:8080	
+04/23/2024	23:04:57	b5965a19-829c-437f-9046-8076e5ac28dd	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/vehicle_equipment	http://localhost:8080	
+04/23/2024	23:04:80	173630ad-ce45-4068-b441-01181e76f329	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/vehicle_body	http://localhost:8080	
+04/23/2024	23:04:06	c961fdb9-8565-46db-9a4c-0d411bad641a	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/info	http://localhost:8080	
+04/23/2024	23:04:21	2a954ad4-b654-4099-869d-2e71874e0311	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/charcer	http://localhost:8080	
+04/23/2024	23:04:23	0fe9ca39-3533-438e-bd32-0a013e1c1292	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/users	http://localhost:8080	
+04/23/2024	23:04:21	bd2216cd-c701-4486-ad7c-719fa2132272	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/storage_equipment	http://localhost:8080	
+04/23/2024	23:04:10	cc322c44-349d-425d-a8c8-30614447a51b	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_storage	http://localhost:8080	
+04/23/2024	23:04:92	f48ce895-f3b1-4957-8abc-d7bf9d7f062d	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/swap_body	http://localhost:8080	
+04/23/2024	23:04:57	197e4512-c0dc-4a16-bce9-265c472df63d	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/trailer_info	http://localhost:8080	
+04/23/2024	23:04:01	ff4704fc-fec3-42cd-8e50-31b37138c6d2	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/load_securing	http://localhost:8080	
+04/23/2024	23:04:42	84ed305b-adb4-4b8a-acd1-4c516f072cd8	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/23/2024	23:04:61	506ed02f-a9e6-4a4d-9757-019ba0394087	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/23/2024	23:04:04	d8cdc66a-a741-450b-b39b-b940ca282e55	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_cargo	http://localhost:8080	
+04/23/2024	23:04:41	793382e8-c418-4327-9592-a390dda398b8	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/nature_cargo	http://localhost:8080	
+04/23/2024	23:04:71	f1ee23f1-b735-4d76-8a4b-207a0cf011de	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_transport	http://localhost:8080	
+04/23/2024	23:04:00	052b3e16-6de9-4999-958e-bbac42d14769	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/storage_facilities	http://localhost:8080	
+04/23/2024	23:04:45	71752f52-ee2d-450c-8f59-da3241464db7	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/available_load	http://localhost:8080	
+04/23/2024	23:04:88	095dda36-3508-485b-950c-f06362a65400	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_vehicle	http://localhost:8080	
+04/23/2024	23:04:38	0fc56ca2-d26b-4ba3-b338-4184c3f986ca	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/vehicle_body	http://localhost:8080	
+04/24/2024	00:04:32	dbadf6ef-fbe3-46ed-a9e0-2f629afc91d4	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:18	ac010961-b013-4561-860c-9e4a99d405ce	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:73	6dbd539a-4982-4799-b8cd-cacbf5846c9a	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:59	e88a6364-2943-401d-bc04-20af3b703c69	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:14	d0e8c72d-c073-4ab9-a708-00df3a503914	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/storage_facilities	http://localhost:8080	
+04/24/2024	00:04:47	2d44fb3f-c506-4074-8e94-2ea5066d79bd	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/available_load	http://localhost:8080	
+04/24/2024	00:04:74	33a85aa2-622d-40b8-8160-4adc59749ced	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/freight	http://localhost:8080	
+04/24/2024	00:04:93	41bafbe3-9100-4750-8a1c-caa0981d5bd5	SyntaxError	"[object Object]" is not valid JSON	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:48	4810ce3a-db12-4b3a-943c-0de4d747361d	SyntaxError	Unexpected token '"', ""{\"contac"... is not valid JSON	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:51	4bf8ef39-4138-432e-b017-ab4a7393f84c	SyntaxError	"[object Object]" is not valid JSON	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:04	8de039c2-ccd6-4e64-b846-8126b6e6fd77	SyntaxError	Unexpected token '"', ""{\"contac"... is not valid JSON	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:57	86cb4183-da35-4762-8cad-c780bf3e39c8	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/24/2024	00:04:31	876205a5-4d0d-472e-ad1b-999373b32827	SyntaxError	Unexpected token '"', ""{\"compan"... is not valid JSON	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:82	98e3443d-bcd8-4d1f-a34e-c3dca2629763	SyntaxError	Unexpected token '"', ""{\"contac"... is not valid JSON	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:17	c67e0646-f77f-42a6-acb0-e480fd734f3c	SyntaxError	Unexpected token '"', ""{\"compan"... is not valid JSON	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:71	d38f1330-55ff-4cd4-9f35-991c5b920f8a	SyntaxError	Unexpected token '"', ""{\"contac"... is not valid JSON	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:00	806bfe46-63bf-492e-ba8e-d8dd32f1f6a2	SyntaxError	Unexpected token '"', ""{\"compan"... is not valid JSON	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:56	ff6dd508-2609-4afc-914e-814c44a60d7f	SyntaxError	Unexpected token '"', ""{\"contac"... is not valid JSON	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:31	5dc0efac-8ad5-4880-9d34-93abfd7d5153	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight_location	http://localhost:8080	
+04/24/2024	00:04:52	c867ea20-3946-4763-86ca-b775acfb7a0a	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:06	c2bf9aee-31ae-4984-9a43-6d06f660915c	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:21	1d30cd9a-9876-4ba1-b4bd-167cdb1a404b	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:01	57926136-17a4-43ec-9cf9-a82d3f41d2fa	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:60	33760ab6-4bb1-46be-9461-a004e1801bf5	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/swap_body	http://localhost:8080	
+04/24/2024	00:04:95	b8254b37-9b1d-4045-ac84-2f986493cb46	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/trailer_info	http://localhost:8080	
+04/24/2024	00:04:29	1901199e-c395-43bb-9122-81f8be865ac9	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/load_securing	http://localhost:8080	
+04/24/2024	00:04:63	055ec9d1-a2fe-4233-ac63-ec15671e2f0b	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/24/2024	00:04:80	d4a5771e-d054-45b9-8440-825f463c751b	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_settiement	http://localhost:8080	
+04/24/2024	00:04:14	63d43625-430c-4628-a3f2-0fac28877f2c	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_cargo	http://localhost:8080	
+04/24/2024	00:04:48	01a61290-df2d-4723-9a6a-3783bd67394d	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/nature_cargo	http://localhost:8080	
+04/24/2024	00:04:82	5fa2033f-1382-49e8-b2ee-be8147131b86	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/type_of_transport	http://localhost:8080	
+04/24/2024	00:04:15	fcbb2c1e-eb08-4ef9-bb14-96cf900db3ce	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/storage_facilities	http://localhost:8080	
+04/24/2024	00:04:49	c2772acd-3806-4588-8ebc-d05c7bc055bb	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/available_load	http://localhost:8080	
+04/24/2024	00:04:63	ef9f5c12-b4d9-4e4b-99f1-ebb5d2361b42	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	POST	/contact_details	http://localhost:8080	
+04/24/2024	00:04:81	f5b6b147-cdf9-4cec-80fc-e08905a81e36	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/contact_details	http://localhost:8080	
+04/24/2024	00:04:29	a54ef744-d207-4607-aa45-4b495e2b7f99	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:30	bb491ac4-d2f0-432e-b8c3-9b802c692f7c	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:38	fd6e8de3-d3bd-45bc-aa0d-c5f4818b3531	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:06	5a12b05c-1d5e-4c28-989b-ad0d2fd2d300	Error	Column count doesn't match value count at row 1	POST	/freight	http://localhost:8080	
+04/24/2024	00:04:35	ccfb7327-1b53-46f6-80a2-14b743b0f618	Error	Column count doesn't match value count at row 1	POST	/freight	undefined	
+04/24/2024	00:04:57	b88e016e-00cf-4dae-bfd5-8e37541f7f33	Error	Column count doesn't match value count at row 1	POST	/freight	undefined	
+04/24/2024	02:04:72	32bea3b5-8c36-4910-8198-02cbdec77006	Error	Column count doesn't match value count at row 1	POST	/freight	undefined	
+04/24/2024	02:04:03	277859f3-e4ee-4fb8-a164-959cb718b9e4	Error	Column count doesn't match value count at row 1	POST	/freight	undefined	
+04/24/2024	03:04:30	459abd83-aa92-486b-a10c-434ce739912b	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/index.html'	GET	/	undefined	
+04/24/2024	03:04:52	e3fc81bd-4317-45a5-907b-86aaebb26efc	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/24/2024	11:04:38	590cd433-cce8-4128-9bed-10854536c6b8	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/index.html'	GET	/	undefined	
+04/24/2024	20:04:31	af7d5b87-37d7-4480-a2f7-c82d5f272345	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:81	0ab5193b-dc7a-4e41-a7a1-7a2c719d24a2	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:71	107a2d02-03f8-4653-a362-1a1f023e573b	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:08	c4e6dd2c-6ffc-48ac-904f-343aa2a7acb0	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:61	623368b9-1ced-401b-9c4f-7a86c4fd95d5	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:52	f8ed0ad1-15f5-41e9-acc0-6844f5d22306	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/24/2024	20:04:73	f8c2f997-993b-4755-958e-ac4675d8fe42	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_person	undefined	
+04/24/2024	20:04:58	8d2535f3-6c4a-4d60-bc87-99523a475e55	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_person	undefined	
+04/24/2024	20:04:79	bd96fc5e-b825-46ce-9b5a-8f0e6c2332d9	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_person	undefined	
+04/24/2024	21:04:28	2b5997ba-e05c-4fcb-9215-ffdddcbfc3b6	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/profile-photos/logo2.jpg	undefined	
+04/24/2024	21:04:73	1cfb9b26-c7ec-4428-8867-957a8507309a	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/24/2024	21:04:36	eab33c3e-26a5-4a57-a160-e1c85b984d53	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/profile-photos/logo2.jpg	undefined	
+04/24/2024	21:04:20	e6291be5-7fa8-4bed-8b06-b122d641c750	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_person	undefined	
+04/24/2024	22:04:37	c2adebc9-ea9c-4b4a-a6c9-75aacae0136f	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	http://localhost:8080	
+04/24/2024	22:04:16	b05a4c18-2235-4055-aa5b-88c94662337c	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/profile-photos/logo.jpg	undefined	
+04/24/2024	22:04:97	ef3d570e-d135-4ace-ac78-f2a7aaf73751	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/24/2024	22:04:96	8556ebf1-aee4-441e-9662-36e6c9f2f08f	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/contact_person	undefined	
+04/24/2024	23:04:49	25996555-3a39-4eaa-832a-050572586d48	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	http://localhost:8080	
+04/24/2024	23:04:48	d7920909-9eab-4c1b-9f7f-8994abae3f3b	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	http://localhost:8080	
+04/25/2024	00:04:28	01bee1aa-e01d-4baf-b98b-e522fcf322e9	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/contact_person	http://localhost:8080	
+04/25/2024	00:04:11	495eea7f-9ffa-4c5e-b644-34a2db5cffe0	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/contact_person	http://localhost:8080	
+04/25/2024	00:04:37	66464b44-2b15-47c5-8505-c2797499c4f7	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/index.html'	GET	/	undefined	
+04/25/2024	02:04:31	6f4db51a-bc8f-44c2-8495-281b4081571b	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/profile-photos/logo.jpg	undefined	
+04/25/2024	02:04:33	b2dc6e74-a12f-4c8b-9199-8a650660ce6e	Error	ENOENT: no such file or directory, stat '/home/igtgooco/app-back-end.api/views/404.html'	GET	/favicon.ico	undefined	
+04/25/2024	18:04:18	bd6fe3f4-4519-4ed8-a187-a8ca1d1c33d3	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	POST	/contact_details	http://localhost:8080	
+04/25/2024	18:04:36	a6c34345-6fa6-46b5-bf4b-93ce18a2300a	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/contact_details	http://localhost:8080	
+04/25/2024	18:04:20	cb5260a3-c0b6-42dc-849a-76ed672e1ecc	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	POST	/contact_details	http://localhost:8080	
+04/25/2024	18:04:37	170d025e-1829-421c-8066-a454992e7b7a	Error	User igtgooco_hamza already has more than 'max_user_connections' active connections	GET	/contact_details	http://localhost:8080	
+04/26/2024	20:04:62	aee0b522-100a-4c6f-bdc5-e16c4307065a	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/documents	undefined	
+04/26/2024	20:04:84	94e84243-e10a-4b82-b759-9e09bf03cb64	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/documents	undefined	
+04/26/2024	21:04:37	0c19e10f-089b-4443-bade-cc0124f89cb1	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/documents	undefined	
+04/26/2024	21:04:40	11c36528-878d-4ad0-b153-58ef173dd34c	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/documents	undefined	
+04/26/2024	21:04:77	b3aa4534-10bc-4eba-8663-b3b6bc5d0d57	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info	undefined	
+04/26/2024	21:04:66	61d83ffc-2ad9-4aaf-a542-0bb5d8e090ed	Error	Incorrect integer value: 'wewer' for column 'sh_in_com_profile' at row 1	POST	/users_info	undefined	
+04/26/2024	21:04:91	0108b9a6-eb40-4e76-a22a-5e41944e968e	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:13	de5c9edb-c26f-4f44-93ff-812164de969a	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:36	c253cfa5-27f2-4120-946b-7f9e68350c75	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info	undefined	
+04/26/2024	21:04:84	0acb3f0f-45e8-4a25-80ca-eae6f75bda60	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info	undefined	
+04/26/2024	21:04:50	a5052bda-0c3a-4de0-a806-f5143e96624a	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:87	bf375aae-d1f9-408d-8a78-1998772ccd65	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:90	559d1973-4f7e-4cd0-bdbe-a297b1902a9a	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:24	e00314eb-f0c5-4a10-a50a-9ba2cda3ffda	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:38	1d474fc5-e86d-4a37-94d2-e0428b42c16c	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:12	09933e02-b136-42cd-9a65-f64f84dde8c8	Error	Malformed part header	PATCH	/users_info	undefined	
+04/26/2024	21:04:94	0b2bfc53-18a1-4df9-a271-1dd921dd836b	Error	Malformed part header	PATCH	/users_info/u	undefined	
+04/28/2024	00:04:06	a13d949e-1e9d-4150-85b0-854edbbdab7f	ReferenceError	insertId is not defined	POST	/documents	undefined	
+04/28/2024	00:04:33	26010525-6629-4c1d-a325-74d8c9723350	ReferenceError	insertId is not defined	POST	/documents	undefined	
+04/28/2024	00:04:81	b7824da5-a3f9-4c46-8855-a84e1c56f0a5	ReferenceError	insertId is not defined	POST	/documents	undefined	
+04/28/2024	01:04:12	a80dbfc6-ba33-4657-956d-dce7b1266a45	Error	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = ?' at line 1	GET	/freight	undefined	
+04/28/2024	01:04:10	73f98b75-93a4-413d-bab4-4457f6a56733	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/warehousing	undefined	
+04/28/2024	01:04:92	02c1c5d3-38ec-463c-b009-0d1f3e230c39	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/warehousing	undefined	
+04/28/2024	01:04:52	ae404f51-3190-490b-846a-9094a4400a9e	ReferenceError	x is not defined	GET	/freight/3	undefined	
+04/28/2024	01:04:11	104acc8a-db84-4cb2-8eb7-a63ff9ba476f	Error	Unknown column 'contact_person' in 'where clause'	GET	/fav_black/contact-person	undefined	
+04/28/2024	02:04:37	f3ed0115-1513-4cf0-9752-f004fb330abd	Error	ENOENT: no such file or directory, stat 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\views\404.html'	GET	/fullSettings/user_id	undefined	
+04/28/2024	02:04:57	d5161d43-0b27-4116-ada2-e60780b34a74	ReferenceError	id is not defined	GET	/fullSettings/user	undefined	
+04/28/2024	21:04:78	594629e3-ad73-475c-9111-0785e3a58e66	Error	ENOENT: no such file or directory, rename 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\profile-photos\users\argdown-arrow.png' -> 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\profile-photos\users\7-argdown-arrow.png'	POST	/users_info	undefined	
+04/28/2024	21:04:85	93a2e458-753a-4769-a5f3-d71f4d6e9ea7	Error	Malformed part header	PATCH	/users_info/update	undefined	
+04/28/2024	21:04:47	54f59320-1c5c-4eeb-9cf2-2dadb58ea955	Error	Malformed part header	PATCH	/users_info/update	undefined	
+04/28/2024	23:04:28	86947425-a07b-4a5b-b5d8-404670beb9eb	Error	ENOENT: no such file or directory, stat 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\views\404.html'	POST	/users_info	undefined	
+04/28/2024	23:04:00	134b8bff-f848-4989-bb13-5bea6e81be16	Error	Malformed part header	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:24	b4ff12a5-521f-48d7-ba9f-123f37d87d76	Error	Malformed part header	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:66	8f3d4afc-f93e-4bc7-9592-3269fd32a7bb	Error	Malformed part header	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:34	9b48881f-9308-4af2-951a-9991170137f4	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:26	f0e7c04c-e289-4cde-a160-95910f4dcbfe	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:14	0341c191-c258-4bc4-a566-20cb52054d82	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:94	5fe4cb57-a79c-4e6d-b25a-85891653943d	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:48	69cc9607-dba2-412c-88be-a66cace4afa0	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:20	bb5d7a19-e154-48df-bac4-824783154bce	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:31	4a0c9e30-c090-4658-bbcf-2530c53f537c	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:07	be591232-70f1-4e60-ab55-0705524ef5e4	Error	Malformed part header	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:39	33787a5b-b902-42f3-ba65-72950e5dfee9	Error	Malformed part header	PATCH	/users_info/update-user	undefined	
+04/28/2024	23:04:83	85bd58d7-938b-4edf-bf9a-d7e98c528b1a	SyntaxError	Unexpected token '-', "#" is not valid JSON	PATCH	/users_info/update-user	undefined	
+04/29/2024	00:04:22	81cbd5ca-57bd-4a74-834c-2f3afa76fcd5	Error	ENOENT: no such file or directory, stat 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\views\404.html'	POST	/tender/add-docs	undefined	
+04/29/2024	00:04:97	e059015a-8193-4fce-b083-91015e5d8e56	MulterError	Unexpected field	POST	/tender/add-docs	undefined	
+04/29/2024	00:04:18	7b4fc704-641f-46d3-8fd1-37debfa47b8c	MulterError	Unexpected field	POST	/tender/add-docs	undefined	
+04/29/2024	00:04:78	a3c6f0f7-eea7-42d5-b4f2-635e697ce677	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/tender/add-docs	undefined	
+04/29/2024	01:04:59	be4ad305-fa1f-4ef0-9a3b-d2e8f06c6d65	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:96	a28ee1e7-3417-456a-bae9-c36813312bd2	Error	Column count doesn't match value count at row 1	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:62	557cd775-7331-4d66-a21f-fd84baaf53f8	Error	Column count doesn't match value count at row 1	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:34	1d10a2f4-8ede-4f58-8ba3-d4e4004986ca	Error	Incorrect integer value: 'd' for column 'track_via_igtb' at row 1	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:48	c8d12124-5339-4a2d-9570-716ad8d309e7	Error	Incorrect integer value: 'sd' for column 'service_own_fleet' at row 1	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:76	c14fedca-81ed-4ec4-bbf3-42bb61991053	Error	Incorrect integer value: 'ds' for column 'assign_service_provider' at row 1	POST	/tender/add-docs	undefined	
+04/29/2024	17:04:71	5007c0bd-dda2-41ec-bb00-e46e0db9be50	ReferenceError	path is not defined	POST	/tender/add-docs	undefined	
+04/29/2024	19:04:00	4e9b9229-5e6e-4e7f-99a5-e18ccb2dd6d7	Error	Incorrect integer value: 'sasa' for column 'service_own_fleet' at row 1	PATCH	/tender/update-docs	undefined	
+04/29/2024	19:04:54	e16c735d-9a87-4b84-89cd-dd099c7fe5ac	Error	Out of range value for column 'active_status' at row 1	PATCH	/tender/update-docs	undefined	
+04/30/2024	03:04:20	9dbfe840-b2d1-419c-ad9e-ab6a84a0bae0	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\undefined\first.png'	POST	/tender/add-docs	undefined	
+04/30/2024	03:04:71	447a546c-ce87-4da3-ae67-e96537bf653d	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\undefined\first.png'	POST	/tender/add-docs	undefined	
+04/30/2024	03:04:88	dee89c6d-6354-43ca-8e52-937e82012d06	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\undefined\first.png'	POST	/tender/add-docs	undefined	
+04/30/2024	03:04:81	886f355a-63cb-4f8c-babc-7e5d2fa4cc98	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\undefined\Employement Hours Azraq.jpeg'	POST	/tender/add-docs	undefined	
+04/30/2024	03:04:61	6333b321-9b04-49bd-8f5d-cdc56117e355	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\undefined\first.png'	POST	/tender/add-docs	undefined	
+04/30/2024	03:04:49	674b7d63-fdf0-4158-b055-586df633c5b5	Error	ENOENT: no such file or directory, open 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\8\first.png'	POST	/tender/add-docs/8	undefined	
+04/30/2024	03:04:80	11d803eb-c5ca-4467-9a13-5f6276894ac0	TypeError	The "path" argument must be of type string. Received undefined	POST	/tender/add-docs/8	undefined	
+05/01/2024	00:05:82	30993705-8dca-4c8f-a2ba-d35759a57824	TypeError	Cannot read properties of undefined (reading '0')	POST	/tender/add-docs/11	undefined	
+05/02/2024	10:05:98	b34f9db0-0721-42f9-8a10-cb764bc0f7c7	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	11:05:88	162b1a96-7a3b-4b57-b3d8-e5c859239e93	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	11:05:32	1d6c916d-f6be-4ffa-afcd-c66189d7871f	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	12:05:93	1ce0e29e-73d5-4c30-9209-c0f1f4b84cd9	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	12:05:42	c642011c-61ff-4c70-a64b-70844daeecae	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	12:05:34	9ab8eeb8-a1be-4009-ac9e-f6407aaa1c64	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	12:05:70	3f2dffa0-e87b-4f7c-87cd-3c3517d8e1b3	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	12:05:05	58174a41-bc49-413a-975a-8ac810e27ff0	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	13:05:71	a582af8b-9650-417f-bb2a-c3e893369688	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	13:05:48	16eaacf8-8a79-4575-b15f-c79fd33a3ef5	TypeError	process.getuid is not a function	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	13:05:11	260d8287-d308-41c5-a0bd-03538ade0cbc	TypeError	process.getuid is not a function	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	13:05:49	a72f921a-e653-48e9-a647-15296dfac1fb	TypeError	process.getuid is not a function	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	13:05:92	5e065f57-b700-4e6d-bc49-cf27ec4ab78f	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\tender\14'	PATCH	/tender/update-docs/14	undefined	
+05/02/2024	14:05:74	38dba71a-08df-46ae-a38b-ca6feee9804b	ReferenceError	charcer is not defined	GET	/fullLists	undefined	
+05/02/2024	14:05:63	dd83118c-b098-40ca-8f5d-aad52e1952ad	Error	ENOENT: no such file or directory, rename 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\verfied\first.png' -> 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\verfied\35-first.png'	POST	/documents/add-docs/1	undefined	
+05/02/2024	14:05:10	47cc73e5-43bd-4cc9-9840-4384f6880be5	Error	ENOENT: no such file or directory, stat 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\views\404.html'	PATCH	/documents/1	undefined	
+05/02/2024	17:05:86	e80d15a2-b73f-4e43-a357-9a1f06717adc	TypeError	Assignment to constant variable.	PATCH	/documents/update-docs/1	undefined	
+05/02/2024	17:05:90	7626f43d-612d-41f4-9b32-ea720c6fda91	Error	EPERM: operation not permitted, unlink 'C:\Users\qwert\OneDrive\Desktop\New\From A2\app-back-end.api\documents\verfied\1'	PATCH	/documents/update-docs/1	undefined	
+05/03/2024	14:05:18	f03d0656-7dba-4b2c-95ce-0c67431c500e	TypeError	rimraf is not a function	PATCH	/documents/update-docs/2	undefined	
+05/03/2024	15:05:57	000ae12a-8d3f-47df-91a3-270c98bf9cf6	ReferenceError	directoryPath is not defined	PATCH	/documents/update-docs/2	undefined	
+05/03/2024	15:05:08	44716d74-0c80-442d-8c4f-585d3dc5fede	TypeError	rimraf is not a function	PATCH	/documents/update-docs/2	undefined	
+05/03/2024	15:05:55	2e923cf5-dfc6-46cd-a3d0-225722263438	TypeError	rimraf is not a function	PATCH	/documents/update-docs/2	undefined	
+05/03/2024	15:05:02	ab7619b8-c2e2-4b3c-9da8-10bdc23c4643	Error	invalid rimraf options	PATCH	/documents/update-docs/2	undefined	
+05/07/2024	01:05:12	6cc77157-b304-4bd5-a1a7-31d335651593	TypeError	Cannot read properties of undefined (reading 'filename')	PATCH	/documents/update-docs/hamza	undefined	
+05/07/2024	02:05:09	163ffe92-1d28-449e-9333-81daeef6e9cf	TypeError	Bind parameters must not contain undefined. To pass SQL NULL specify JS null	PATCH	/documents/update-docs/hamza	undefined	
+05/07/2024	02:05:41	d54f12c8-385f-4604-819c-ce21df02b709	TypeError	Cannot read properties of undefined (reading 'filename')	POST	/users_info/add-user	undefined	
+05/07/2024	02:05:06	5977eec5-b680-4ccf-9704-abdd20fcc128	TypeError	Cannot read properties of undefined (reading '0')	POST	/tender/add-tender	undefined	
+06/21/2024	16:06:16	8a4edd3a-5e72-4359-b242-2348bcae0e68	Error	ENOENT: no such file or directory, stat 'F:\Jobs Abo Hamza\GOOD\1\views\404.html'	GET	/moto/html/css/css/font-awesome.min.css	undefined	
+06/21/2024	16:06:17	e44e4acb-d466-4363-b158-d64029d3f79b	Error	ENOENT: no such file or directory, stat 'F:\Jobs Abo Hamza\GOOD\1\views\404.html'	GET	/moto/html/css/swiper.min.css	undefined	
+06/21/2024	16:06:30	cc358d0a-87d0-47ab-b2a2-d401589538c2	Error	ENOENT: no such file or directory, stat 'F:\Jobs Abo Hamza\GOOD\1\views\404.html'	GET	/moto/html/images/banner-bg.png	undefined	
+06/21/2024	16:06:75	d231cd8e-6ec3-4117-b602-1de1ed0ddb70	Error	ENOENT: no such file or directory, stat 'F:\Jobs Abo Hamza\GOOD\1\views\404.html'	GET	/moto/html/images/fevicon.png	undefined	
+06/21/2024	16:06:65	6972d9ed-9921-4f63-928a-32352c70bdd1	Error	ENOENT: no such file or directory, stat 'F:\Jobs Abo Hamza\GOOD\1\views\404.html'	GET	/favicon.ico	undefined	

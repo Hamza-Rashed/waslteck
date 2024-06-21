@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Transportation Way</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            text-align: right;
+            
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            direction: rtl;
+        }
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6600;
+        }
+        .form-sec{
+         text-align: center;
+            margin-bottom: 20px;
+            color: #686767;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .btn-custom {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #e65c00;
+        }
+        .form-label {
+            color: #333;
+        }
+        .linn{
+         text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">إضافة وسيلة نقل جديدة</h2>
+            <h5 class="form-sec">يمكنك استخدام النموذج التالي لإضافة وسيلة نقلك أو يمكنك الضغط على الرقم التالي <a href="tel:+962796838462">0796838462</a> ليقوم موظف المركز بإضافة وسيلة نقلك</h5>
+            <form>
+               <div class="form-group">
+                  <label for="transportationName" class="form-label">الاسم الثلاثي</label>
+                  <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+              </div>
+              <div class="form-group">
+               <label for="transportationName" class="form-label">رقم الهاتف</label>
+               <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+           </div>
+           <div class="form-group">
+            <label for="transportationName" class="form-label">المواليد</label>
+            <input type="date" class="form-control" id="transportationName" name="transportationName" required>
+        </div>
+        <div class="form-group">
+         <label for="transportationName" class="form-label">الجنس (ذكر أو انثى)</label>
+         <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+     </div>
+                <div class="form-group">
+                    <label for="transportationName" class="form-label">اسم أداة النقل أو رقمها التسلسلي</label>
+                    <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+                </div>
+                <div class="form-group">
+                    <label for="transportationType" class="form-label">نوع وسيلة النقل</label>
+                    <select class="form-control" id="transportationType" name="transportationName" required>
+                        <option>دراجة</option>
+                        <option>سيارة</option>
+                        <option>موتور</option>
+                        <option>طنبر</option>
+                        <option>أخرى (يرجى اضافة اسم أداة النقل في التفاصيل الإضافية أدناه)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="capacity" class="form-label">السعة التخزينية</label>
+                    <input type="text" class="form-control" id="capacity" name="transportationName" required>
+                </div>
+                <div class="form-group">
+                  <label for="capacity" class="form-label">ماذا تريد أن تنقل</label>
+                  <input type="text" class="form-control" id="capacity" name="transportationName" required>
+              </div>
+                <div class="form-group">
+                    <label for="description" class="form-label">تفاصيل إضافية</label>
+                    <textarea class="form-control" id="description" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-custom btn-block">إضافة</button> <br>
+                
+            </form>
+            <a href="./index.html" class="linn"><button class="btn btn-custom btn-block">إالغاء والعودة للصفحة الرئيسية</button></a>
+        </div>
+    </div>
+</body>
+</html>

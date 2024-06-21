@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Transportation Way</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      text-align: right;
+
+    }
+
+    .form-container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      direction: rtl;
+    }
+
+    .form-title {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ff6600;
+    }
+
+    .form-sec {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #656565;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn-custom {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+    }
+
+    .btn-custom:hover {
+      background-color: #e65c00;
+    }
+
+    .form-label {
+      color: #333;
+    }
+
+    .linn {
+      text-decoration: none;
+    }
+
+    .content-table {
+      max-width: 600px;
+      overflow-x: auto;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      background: #f5f5f5;
+      border-collapse: separate;
+      box-shadow: inset 0 1px 0 #fff;
+      font-size: 12px;
+      line-height: 24px;
+      margin: 30px auto;
+      text-align: left;
+      width: 1250px;
+    }
+
+    th {
+      background: #ff6600;
+      border: 1px solid #ff6600;
+      box-shadow: inset 0 1px 0 #ff6600;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 15px;
+      position: relative;
+      text-shadow: 0 1px 0 #000;
+      text-align: center;
+    }
+
+    th:after {
+      background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .08));
+      content: '';
+      display: block;
+      height: 25%;
+      left: 0;
+      margin: 1px 0 0 0;
+      position: absolute;
+      top: 25%;
+      width: 100%;
+    }
+
+    th:first-child {
+      border-left: 1px solid #777;
+      box-shadow: inset 1px 1px 0 #999;
+    }
+
+    th:last-child {
+      box-shadow: inset -1px 1px 0 #999;
+    }
+
+    td {
+      border-right: 1px solid #fff;
+      border-left: 1px solid #e8e8e8;
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #e8e8e8;
+      padding: 10px 15px;
+      position: relative;
+      transition: all 300ms;
+      text-align: center;
+    }
+
+    td:first-child {
+      box-shadow: inset 1px 0 0 #fff;
+    }
+
+    td:last-child {
+      border-right: 1px solid #e8e8e8;
+      box-shadow: inset -1px 0 0 #fff;
+    }
+
+    tr {
+      background: url(https://jackrugile.com/images/misc/noise-diagonal.png);
+    }
+
+    tr:nth-child(odd) td {
+      background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);
+    }
+
+    tr:last-of-type td {
+      box-shadow: inset 0 -1px 0 #fff;
+    }
+
+    tr:last-of-type td:first-child {
+      box-shadow: inset 1px -1px 0 #fff;
+    }
+
+    tr:last-of-type td:last-child {
+      box-shadow: inset -1px -1px 0 #fff;
+    }
+
+    /* tbody:hover td {
+color: transparent;
+text-shadow: 0 0 3px #aaa;
+} */
+
+    tbody:hover tr:hover td {
+      color: #444;
+      background-color: #dedddd;
+      text-shadow: 0 1px 0 #fff;
+    }
+
+    @media (max-width: 768px) {
+      .form-container {
+        width: 100%;
+      }
+    }
+
+    .pagination {
+          width: 50%;
+          margin: auto;
+      text-align: center;
+      /* background-color: red; */
+    }
+
+    .pagination button {
+      margin: 10px 2px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h2 class="form-title">البحث عن دورة تدريبية</h2>
+      <h5 class="form-sec">يمكنك استخدام النموذج التالي لإيجاد دورة تدريبية أو يمكنك الضغط على الرقم التالي <a
+          href="tel:+962796838462">0796838462</a> ليقوم موظف المركز بالمساعدة</h5>
+      <form>
+        <div class="form-group">
+          <label for="transportationName" class="form-label">اسم الدورة</label>
+          <input type="text" class="form-control" id="transportationName" name="transportationName">
+        </div>
+        <div class="form-group">
+          <label for="transportationType" class="form-label">وقت الدورة (مسائي أو صباحي)</label>
+          <select class="form-control" id="transportationType" name="transportationName">
+            <option>أي وقت</option>
+            <option>مسائي</option>
+            <option>صباحي</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="transportationName" class="form-label">مكان انعقاد الدورة</label>
+          <input type="text" class="form-control" id="transportationName" name="transportationName">
+        </div>
+        <button type="submit" class="btn btn-custom btn-block">ابحث</button> <br>
+
+      </form>
+      <a href="./index.html" class="linn"><button class="btn btn-custom btn-block">إالغاء والعودة للصفحة
+          الرئيسية</button></a>
+    </div>
+  </div>
+
+  <div class="content-table">
+    <table dir="ltr" id="myTable">
+      <thead>
+        <tr>
+          <th>اسم الدورة</th>
+          <th>وقت الدوام</th>
+          <th>سعر الدورة</th>
+          <th>عدد ساعات الدورة في اليوم</th>
+          <th>أيام الدورة</th>
+          <th>مكان انعقاد الدورة</th>
+          <th>تاريخ بداية الدورة</th>
+          <th>تاريخ نهاية الدورة</th>
+          <th>ملاحظات</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>اضغط للتقديم</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+        <tr>
+          <td><strong>معلم شاورما</strong></td>
+          <td>صباحا</td>
+          <td>9</td>
+          <td>2</td>
+          <td>6</td>
+          <td>أحد + ثلاثاء</td>
+          <td>بجانب مطعم البيك</td>
+          <td>مطعم حوران</td>
+          <td>يجب أن يكون الشخص لديه خبرة لاتقل عن سنتين</td>
+          <td><button>تقديم للوظيفة</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="pagination" id="pagination">
+    <!-- Pagination buttons will be populated by JavaScript -->
+  </div>
+
+  <script>
+    const data = [
+      // Example data array with 50 records (add your own data here)
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      ["Data 1", "Data 2", "Data 3", "Data 4", "Data 5", "Data 6", "Data 7", "Data 8", "Data 9", "Data 10"],
+      ["Data 11", "Data 12", "Data 13", "Data 14", "Data 15", "Data 16", "Data 17", "Data 18", "Data 19", "Data 20"],
+      ["Data 21", "Data 22", "Data 23", "Data 24", "Data 25", "Data 26", "Data 27", "Data 28", "Data 29", "Data 30"],
+      // Add more data as needed
+    ];
+
+    const rowsPerPage = 5;
+    let currentPage = 1;
+
+    function displayTable(page) {
+      const tbody = document.querySelector("#myTable tbody");
+      tbody.innerHTML = "";
+
+      const start = (page - 1) * rowsPerPage;
+      const end = start + rowsPerPage;
+      const paginatedItems = data.slice(start, end);
+
+      paginatedItems.forEach(row => {
+        const tr = document.createElement("tr");
+        row.forEach(cell => {
+          const td = document.createElement("td");
+          td.textContent = cell;
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    function setupPagination() {
+      const pagination = document.getElementById("pagination");
+      pagination.innerHTML = "";
+
+      const pageCount = Math.ceil(data.length / rowsPerPage);
+
+      for (let i = 1; i <= pageCount; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        btn.addEventListener("click", () => {
+          currentPage = i;
+          displayTable(currentPage);
+          updatePagination();
+        });
+        pagination.appendChild(btn);
+      }
+    }
+
+    function updatePagination() {
+      const buttons = document.querySelectorAll("#pagination button");
+      buttons.forEach(button => {
+        button.classList.remove("active");
+        if (parseInt(button.textContent) === currentPage) {
+          button.classList.add("active");
+        }
+      });
+    }
+
+    // Initialize table and pagination
+    displayTable(currentPage);
+    setupPagination();
+    updatePagination();
+  </script>
+</body>
+
+</html>

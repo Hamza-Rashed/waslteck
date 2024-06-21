@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Transportation Way</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            text-align: right;
+            
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            direction: rtl;
+        }
+        .form-title {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6600;
+        }
+        .form-sec{
+         text-align: center;
+            margin-bottom: 20px;
+            color: #656565;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .btn-custom {
+            background-color: #ff6600;
+            color: white;
+            border: none;
+        }
+        .btn-custom:hover {
+            background-color: #e65c00;
+        }
+        .form-label {
+            color: #333;
+        }
+        .linn{
+         text-decoration: none;
+        }
+        .form-check-label{
+            margin-right: 20px;
+        }
+        @media (max-width: 768px){
+            .form-container{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2 class="form-title">إنشاء دورة جديدة</h2>
+            <h5 class="form-sec">يمكنك استخدام النموذج التالي لإضافة دورة جديدة أو يمكنك الضغط على الرقم التالي <a href="tel:+962796838462">0796838462</a> ليقوم موظف المركز بالمساعدة</h5>
+            <form>
+                <div class="form-group">
+                    <label for="transportationName" class="form-label">اسم الدورة</label>
+                    <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+                </div>
+                <div class="form-group">
+                    <label for="transportationType" class="form-label">وقت الدورة (مسائي أو صباحي)</label>
+                    <select class="form-control" id="transportationType" name="transportationName" required>
+                        <option>مسائي</option>
+                        <option>صباحي</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="capacity" class="form-label">عدد الطلاب اللازم لهذه الدورة</label>
+                    <input type="text" class="form-control" id="capacity" name="transportationName" required>
+                </div>
+                <div class="form-group">
+                  <label for="capacity" class="form-label">سعر الدورة</label>
+                  <input type="text" class="form-control" id="capacity" name="transportationName" required>
+              </div>
+              <div class="form-group">
+                <label for="capacity" class="form-label">عدد ساعات الدورة في اليوم الواحد</label>
+                <input type="text" class="form-control" id="capacity" name="transportationName" required>
+            </div>
+            <div class="form-group">
+              <label for="features" class="form-label">يرجى تحديد أيام الدورة</label>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="gps">
+                  <label class="form-check-label" for="gps">
+                      السبت
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="airConditioning">
+                  <span>  </span>
+                  <label class="form-check-label" for="airConditioning">
+                      الأحد
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="radio">
+                  <label class="form-check-label" for="radio">
+                      الاثنين
+                  </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="bluetooth">
+                  <label class="form-check-label" for="bluetooth">
+                      الثلاثاء
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="bluetooth">
+                <label class="form-check-label" for="bluetooth">
+                    الأربعاء
+                </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="bluetooth">
+              <label class="form-check-label" for="bluetooth">
+                  الخميس
+              </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="bluetooth">
+            <label class="form-check-label" for="bluetooth">
+                الجمعة
+            </label>
+        </div>
+          </div>
+          <div class="form-group">
+            <label for="transportationName" class="form-label">مكان انعقاد الدورة</label>
+            <input type="text" class="form-control" id="transportationName" name="transportationName" required>
+        </div>
+        <div class="form-group">
+            <label for="transportationName" class="form-label">تاريخ بداية الدورة</label>
+            <input type="date" class="form-control" id="transportationName" name="transportationName" required>
+        </div>
+        <div class="form-group">
+            <label for="transportationName" class="form-label">تاريخ نهاية الدورة</label>
+            <input type="date" class="form-control" id="transportationName" name="transportationName" required>
+        </div>
+        <div class="form-group">
+            <label for="description" class="form-label">يرجى ذكر أي تفاصيل إضافية مثل المهارات المطلوبة وغيرها</label>
+            <textarea class="form-control" id="description" rows="3"></textarea>
+        </div>
+      
+                <button type="submit" class="btn btn-custom btn-block">إضافة</button> <br>
+                
+            </form>
+            <a href="./index.html" class="linn"><button class="btn btn-custom btn-block">إالغاء والعودة للصفحة الرئيسية</button></a>
+        </div>
+    </div>
+</body>
+</html>
